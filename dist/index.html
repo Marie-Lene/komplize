@@ -132,26 +132,31 @@
                         <a><h2 class="post-title">Want to know more?</h2>
                         <h3 class="post-subtitle">If you're considering to hike the Via Dinarica and have questions, please reach out to me. I am more than happy to share my insights and experiences!</h3>
                         </a>
-                        
-                                                <form name="contact" method="POST" data-netlify="true">
-                        <p>
-                            <label>Your Name: <input type="text" name="name" /></label>
-                        </p>
-                        <p>
-                            <label>Your Email: <input type="email" name="email" /></label>
-                        </p>
-                        <p>
-                            <label>Your Role: <select name="role[]" multiple>
-                            <option value="leader">Leader</option>
-                            <option value="follower">Follower</option>
-                            </select></label>
-                        </p>
-                        <p>
-                            <label>Message: <textarea name="message"></textarea></label>
-                        </p>
-                        <p>
-                            <button type="submit">Send</button>
-                        </p>
+                        <form id="contactForm" name="contact" method="POST" data-netlify="true">
+                            <!--<p><label>Your Name: <input type="text" name="name" /></label></p>-->
+                            <div class="form-floating">
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." />
+                                <label for="name">Name</label>
+                            </div>
+                            <!--<p>
+                                <label>Your Email: <input type="email" name="email" /></label>
+                            </p>-->
+                            <div class="form-floating">
+                                <input class="form-control" id="email" name="email" type="email" placeholder="Enter your email..." />
+                                <label for="email">Email address</label>
+                            </div>
+                            <!--<p>
+                                <label>Message: <textarea name="message"></textarea></label>
+                            </p>-->
+                            <div class="form-floating">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message here..." style="height: 12rem"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <!-- <p>
+                                <button type="submit">Send</button>
+                            </p> -->
+                            <br />
+                            <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Send</button>
                         </form>
                         
                         <div class="my-5">
