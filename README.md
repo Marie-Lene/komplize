@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap - Clean Blog](https://startbootstrap.com/theme/clean-blog/)
 
 [Clean Blog]Test (https://startbootstrap.com/theme/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
@@ -84,3 +85,6 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE) license.
 
 # balkanize-me
+=======
+# komplize
+>>>>>>> f6f5363e8dcdb8a866b86259fb840420925a00ad
